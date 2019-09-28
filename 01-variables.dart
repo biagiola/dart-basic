@@ -24,7 +24,11 @@ void main(){
   
   // const
   const aInt = 5; // int const
-  const aString = 'hi' // string const
-  const aBool = true // bool const
+  const aString = 'hi'; // string const
+  const aBool = true; // bool const
+  
+  print(aInt.runtimeType);
+  print(aString.runtimeType);
+  print(aBool.runtimeType);
   
 }
