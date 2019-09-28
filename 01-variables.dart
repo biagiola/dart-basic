@@ -22,4 +22,9 @@ void main(){
   // Speficy type of data
   //List<int> users1 = ['antonio', 'Muller', 'John'];
   
+  // const
+  const aInt = 5; // int const
+  const aString = 'hi' // string const
+  const aBool = true // bool const
+  
 }
