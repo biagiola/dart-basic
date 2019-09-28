@@ -22,5 +22,10 @@ main() {
   // ??= operator
   int value;
   print( value ??= 100); // if value is null it assigned 100
-
+  
+  // ternary operator
+  int x = 100;
+  var result = x % 2 == 0 ? 'Even' : 'odd';
+  print(result);
+  
 }
