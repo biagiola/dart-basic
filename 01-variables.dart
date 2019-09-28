@@ -1,3 +1,5 @@
+import 'dart:core'; // this execute automatically
+
 void main(){
   // Static string
   String user1 = 'julian';
