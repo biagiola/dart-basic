@@ -12,7 +12,9 @@ main() {
   /*
   if ( n != null ) {
     number = n.num;
-  } */  
+  } 
+  */  
+  
   // shortcut
   number = n?.num;  // ?. == if n is not null or escape...
   number = n?.num ?? 0;  // ?. == if n is not null or n = 0...
